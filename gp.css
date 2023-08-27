@@ -1,0 +1,34 @@
+/* navigation bar */
+#navigation-bar{
+    font-family: Unbounded;
+}
+
+#homelogo{
+    width: 70px;
+    height: 70px;
+}
+
+#cbutton{
+    background-image: url('https://live.staticflickr.com/1592/24255501882_c87f443835_b.jpg');
+}
+
+.links:active{
+    color: red;
+}
+.links{
+    color: crimson;
+}
+.links:hover{
+    background-color: aquamarine;
+    padding: 0px;
+}
+
+/* body */
+
+body{
+    background: linear-gradient(rgba(36, 39, 38, 0.75), rgba(36, 39, 38, 0.75)), rgba(36, 39, 38, 0.75) url(https://10wallpaper.com/wallpaper/1366x768/1211/aurora_borealis-nature_scenery_wallpapers_1366x768.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

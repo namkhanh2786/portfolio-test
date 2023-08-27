@@ -1,0 +1,134 @@
+/* navigation bar */
+#navigation-bar{
+    font-family: Unbounded;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#homelogo{
+    width: 3rem;
+    height: 3rem;
+}
+
+#cbutton{
+    background-image: url('https://live.staticflickr.com/1592/24255501882_c87f443835_b.jpg');
+}
+
+.links:active{
+    color: red;
+}
+.links{
+    color: crimson;
+}
+.links:hover{
+    background-color: aquamarine;
+    padding: 0px;
+}
+
+/* body */
+
+body{
+    background: linear-gradient(rgba(11, 11, 11, 0.75), rgba(11, 11, 11, 0.75)), rgba(11, 11, 11, 0.75) url(http://1.bp.blogspot.com/-zDZFWgzsP_Y/TpXUk0I33kI/AAAAAAAAAOg/N89KJTk604A/s1600/Fantasy+wallpapers+high+resolution+1.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#introDiv{
+    padding-top: 50px;
+}
+
+#introQuote{
+    color: white;
+    opacity: 0.9;
+}
+
+.rightHT{
+    float: right;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.leftHT{
+    float: left;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+hr.sep-2 {
+    border: 0;
+    margin-top: 3rem; 
+    height: 0.1em; 
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
+}
+
+.music-list-section{
+    text-align: center;
+}
+
+.table-music {
+    border-collapse: collapse;
+}
+
+.music-list-section-thead, .music-list-section-tbody{
+    border-bottom: 1.5em solid transparent;
+}
+
+.music-list-section-thead{
+    color: antiquewhite;
+}
+
+.music-list-section-tbody tr{
+    color: white;
+    font-size: large;
+}
+
+.music-list-section-thead:hover, .music-list-section-tbody tr:hover{
+    background: linear-gradient(rgba(29, 62, 51, 0.2), rgba(29, 62, 51, 0.2)), rgba(29, 62, 51, 0.2);
+}
+
+.ult-hr{
+    margin-top: 3rem;
+    position: relative;
+    border: none;
+    height: 1px;
+    background: #999;
+}
+
+.ult-hr::before{
+    content: attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #999;
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.digital-clock-section{
+    margin-top: 1em;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Clocker';
+    src: url('Clocker.ttf') format('truetype');
+}
+
+.digital-clock-surface{
+    margin-top: 1em;
+    color: aliceblue;
+    font-family: 'Clocker', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 0.15em;
+}
